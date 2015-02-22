@@ -1,0 +1,250 @@
+cm <- colMeans(my_pois1)
+cm
+means(cm)
+mean(cm)
+dpois(5, 10)
+density1 <- replicate(100, dpois(5,10))
+density
+density1
+dpois(5, 100)
+dpois(5, .1)
+dpois(5, 10, log=FALSE)
+dpois(5, 10, log=TRUE)
+dnorm(5,10)
+Sys.time()
+?source
+ls()
+home()
+home
+pwd()
+cd
+cd()
+table.csv(Users/markstewart/datasciencecoursera/specdata/001.csv)
+table.csv(/Users/markstewart/datasciencecoursera/specdata/001.csv)
+table.csv("Users/markstewart/datasciencecoursera/specdata/001.csv")
+table.csv("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+table("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+table("/Users/markstewart/datasciencecoursera/specdata")
+base_data1 <- table("/Users/markstewart/datasciencecoursera/specdata")
+str(base_data1)
+base_data1
+data(/Users/markstewart/datasciencecoursera/specdata)
+data(Users/markstewart/datasciencecoursera/specdata)
+load(Users/markstewart/datasciencecoursera/specdata)
+load(markstewart/datasciencecoursera/specdata)
+list.files(path=Users)
+list.files(path=datasciencecoursera)
+list.files(path=specdata)
+getwd()
+ls()
+old.dir <- getwd()
+dir.create("pollutant_HW")
+ls
+ls()
+setwd(pollutant_HW)
+setwd("pollutant_HW")
+ls()
+getwd()
+dir()
+getwd()
+setwd("/Users/markstewart/datasciencecoursera")
+getwd()
+ls()
+dir()
+setwd("/Users/markstewart/datasciencecoursera/specdata")
+ls()
+getwd()
+dir()
+read.csv(001:332)
+str(001.csv)
+str("Users/markstewart/datasciencecoursera/specdata/001.csv")
+pollute1 <- read.csv("/specdata/", header=TRUE, sep=",")
+getwd()
+setwd(/Users/markstewart/datasciencecoursera)
+setwd("/Users/markstewart/datasciencecoursera")
+getwd()
+dir()
+pollute1 <- read.csv("/specdata/", header=TRUE, sep=",")
+pollute1
+choose.dir()
+choose.dir("/Users/markstewart/datasciencecoursera/specdata")
+pollute1 <- list.files(path=/Users/markstewart/datasciencecoursera/specdata)
+pollute1 <- list.files(path="/Users/markstewart/datasciencecoursera/specdata")
+pollute1
+pollute_work1 <- do.call(rbind, lapply(pollute1, read.csv))
+str(pollute1)
+heads(pollute1)
+head(pollute1)
+summary(pollute1)
+getwd()
+setwd("/Users/markstewart/datasciencecoursera/specdata")
+dir()
+read.csv("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+p001 <- "/Users/markstewart/datasciencecoursera/specdata/001.csv"
+head(p001)
+table.csv("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+plot("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+str("/Users/markstewart/datasciencecoursera/specdata/001.csv")
+str(/Users/markstewart/datasciencecoursera/specdata/001.csv)
+str(Users/markstewart/datasciencecoursera/specdata/001.csv)
+str(001.csv)
+str("001.csv")
+?read.delim
+read.delim(file="001.csv", header=TRUE, sep="c")
+p001 <- read.delim(file="001.csv", header=TRUE, sep="c")
+str(p001)
+head(p001)
+names(p001)
+mean(p001$sulfate)
+my_na <- is.na(p001)
+my_na
+my_na <- is.na(p001$sulfate)
+sum(my_na)
+dim(p001)
+dim(001.csv)
+dim("001.csv")
+summary("~/datasourcecoursera/specdata/001.csv")
+p001 <- read.delim(file="001.csv", header=TRUE, sep=",")
+summary(p001)
+mean(p001$sulfate)
+notNA_001 <- [!is.na(p001$sulfate)]
+notNA_001 <- [!is.na(p001)]
+notNA_001 <- p001$sulfate[!is.na(p001$sulfate)]
+dim(notNA_001)
+notNA_001
+mean(notNA_001)
+mean(p001)
+notNA_001a <- p001[!is.na(p001)]
+dim(notNA_001a)
+head(notNA_001a)
+notNA_001n <- p001$nitrate[!is.na(p001$nitrate)]
+summary(notNA_001n)
+mean(notNA_001n)
+filenames <- list.files(path="~/")
+head(filen)
+head(filenames)
+filenames <- list.files(path="~/datasciencecoursera/specdata")
+head(filenames)
+tail(filenames)
+do.call("rbind", laaply(filenames, read.csv, header=TRUE))
+do.call("rbind", lapply(filenames, read.csv, header=TRUE))
+pollutantDATA1 <- do.call("rbind", lapply(filenames, read.csv, header=TRUE))
+mean(pollutantDATA1$sulfate)
+notNA_pollutantS <- pollutantDATA1$sulfate(!is.na(pollutantDATA1$sulfate))
+notNA_pollutantS <- pollutantDATA1$sulfate[!is.na(pollutantDATA1$sulfate)]
+mean(notNA_pollutantS)
+summary(notNA_pollutantS)
+class(notNA_pollutantS)
+class(pollutantDATA1)
+summary(pollutantDATA1)
+?lable
+ls()
+head(pollutantDATA1)
+dim(pollutantDATA1$sulfate)
+summary(pollutantDATA1$sulfate)
+length(pollutantDATA1)
+length(pollutantDATA1$sulfate)
+nrow(pollutantDATA1$sulfate)
+tail(pollutantDATA1)
+setwd(~/datasciencecoursera/diet_data)
+dir()
+getwd
+getwd()
+setwd("~/datasciencecoursera")
+dir()
+setwd("~/datasciencecoursera/diet_data")
+list.files("diet_data")
+setwd("~/datasciencecoursera")
+list.files("diet_data")
+andy <- read.csv("diet_data/Andy.csv")
+head(andy)
+dim(andy)
+class(andy)
+summary(andy)
+length(andy$Day)
+str(andy)
+names(andy)
+andy[1, "Weight"]
+andy[30, "Weight"]
+andy[which(andy$Day == 30), "Weight"]
+andy[which(andy[, "Day"] == 30), "Weight"]
+subset(andy$Weight, andy$Day ==30)
+andy_start <- andy[1, "Weight"]
+andy_end <- andy[30, "Weight"]
+andy_loss <- andy_start-andy_end
+andy_loss
+?list.files
+files <- list.files("diet_data")
+head(files)
+class(files)
+files
+files[1]
+files[3.5]
+files[3:5]
+head(read.csv(files[3]))
+files_full <- list.files("diet_data", full.names=TRUE)
+files_full
+head(read.csv(files_full[3]))
+andy_david <- rbind(andy, read.csv(files_full[2]))
+head(andy_david)
+tail(andy_david)
+day_25 <- andy_david[which(andy_david$Day == 25), ]
+day_25
+for (i in 1:5) {print(i)}
+for (i in 1:5) {}
+?`{}`
+?`{`
+for (i in 1:5) {      dat <- rbind(dat, read.csv(files_full[i])) }
+?for
+for (i in 1:5) {    dat <- rbind(dat, read.csv(files_full[i])) }
+dat <- data.frame()
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i]))}
+str(dat)
+?do.call
+for (i in 1:5) {      dat2 <- data.frame()      dat2 <- rbind(dat2, read.csv(files_full[i])) }
+for (i in 1:5) { dat2 <- data.frame() dat2 <- rbind(dat2, read.csv(files_full[i])) }
+for (i in 1:5) {dat2 <- data.frame() dat2 <- rbind(dat2, read.csv(files_full[i])) }
+help()
+for (i in 1:5) { /n dat2 <- data.frame() /n dat2 <- rbind(dat2, read.csv(files_full[i])) /n }
+for (i in 1:5) { \n dat2 <- data.frame() \n dat2 <- rbind(dat2, read.csv(files_full[i])) \n }
+?syntax
+?Syntax
+for (i in 1:5) {}
+for (i in 1:5) {
+dat2 <- data.frame()
+dat2 <- rbind(dat2, read.csv(files_full[i]))
+}
+str(dat2)
+head(dat2)
+median(dat$Weight)
+dat[is.na, "Weight"]
+?mean
+median(dat$Weight, na.rm=TRUE)
+dat_30 <- dat[which(dat[, "Day"] == 30),]
+dat_30
+median(dat_30$Weight)
+weightmedian <- function(directory, day) {
+files_list <- list.files(directory, full.names=TRUE)
+dat <- data.frame()
+for (i in 1:5) {
+dat <- rbind(dat, read.csv(files_list[i]))
+}
+dat_subset <- dat[which(dat[, "Day"] == day),]
+median(dat_subset[, "Weight"], na.rm=TRUE)
+}
+weightmedian("diet_data", 20)
+weightmedian("diet_data", 4)
+weightmedian("diet_data", 17)
+getwd()
+pollutantmean <- function(directory, pollutant, id=1:332) {
+pollutantDATA <- do.call("rbind", lapply())
+filenames <- list.files(path="~/datasciencecoursera/specdata")
+pollutantmean <- function(directory, pollutant, id=1:332) {
+filenames <- list.files(path="~/datasciencecoursera/specdata")
+pollutantDATA <- do.call("rbind", lapply(filenames, read.csv, header=TRUE))
+mean(pollutantDATA$pollutant, na.rm=TRUE)
+}
+pollutantmean("specdata", sulfate)
+pollutantmean <- function(directory, pollutant, id=1:332) {
+getwd()
+getwd()
